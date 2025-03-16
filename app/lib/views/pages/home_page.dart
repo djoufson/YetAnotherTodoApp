@@ -5,6 +5,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Home'));
+    return Scaffold(
+      body: Center(child: Text('Home')),
+      appBar: AppBar(title: Text('Crazy Todo')),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => {},
+        child: Icon(Icons.add),
+      ),
+    );
   }
 }

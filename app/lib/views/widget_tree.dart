@@ -17,11 +17,6 @@ class WidgetTree extends StatelessWidget {
           return pages.elementAt(value);
         },
       ),
-      appBar: AppBar(title: Text('Crazy Todo')),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => {},
-        child: Icon(Icons.add),
-      ),
       bottomNavigationBar: NavbarWidget(),
     );
   }
